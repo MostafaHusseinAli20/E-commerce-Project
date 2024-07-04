@@ -34,3 +34,5 @@ git clone - https://github.com/MostafaHusseinAli20/E-commerce-Project.git -
 [./assets/4.jpeg](./assets/4.jpeg)
 [./assets/5.jpeg](./assets/5.jpeg)
 [./assets/6.jpeg](./assets/6.jpeg)
+[./assets/7.jpeg](./assets/7.jpeg)
+[./assets/8.jpeg](./assets/8.jpeg)
