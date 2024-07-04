@@ -1,0 +1,82 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "bannerCard": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "brand": {
+      "type": "enumeration",
+      "enum": [
+        "iPhone",
+        "Samsung",
+        "Samsung Book",
+        "Xiaomi",
+        "Honor",
+        "Dell",
+        "Hp",
+        "Asus",
+        "Antec",
+        "Color Master",
+        "Gamdias",
+        "Thermaltake ",
+        "Xigmatek",
+        "Lian Li",
+        "Gigabyte ",
+        "GALAX ",
+        "ASUS Rog Strix",
+        "ASUS TUF Gaming",
+        "CORSAIR",
+        "CRUCIAL",
+        "Lexar",
+        "Teamgroup",
+        "KLEVV ",
+        "Acer",
+        "Intel",
+        "AMD",
+        "Logitech",
+        "Razer",
+        "Redragon",
+        "Razerkeyboard",
+        "Nvidia",
+        "AMDRX"
+      ]
+    },
+    "instanceDelivery": {
+      "type": "boolean"
+    },
+    "orders": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::order.order",
+      "mappedBy": "products"
+    }
+  }
+}
