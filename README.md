@@ -18,12 +18,17 @@ EX: Graphics Card - CPU - GPU - Computer Cases - Phone - Memory .....
 
 • Style => Tailwind Css
 
+<<<<<<< HEAD
 • GUI => Nexta
+=======
+• GUI => Next
+>>>>>>> 838f3c5d47403ef0acf9655adcd6a4694dbace2a
 
 
 # Preview Website
 
 git clone - https://github.com/MostafaHusseinAli20/E-commerce-Project.git - 
+<<<<<<< HEAD
 
 
 # Screenshots 
@@ -34,3 +39,5 @@ git clone - https://github.com/MostafaHusseinAli20/E-commerce-Project.git -
 [./assets/4.jpeg](./assets/4.jpeg)
 [./assets/5.jpeg](./assets/5.jpeg)
 [./assets/6.jpeg](./assets/6.jpeg)
+=======
+>>>>>>> 838f3c5d47403ef0acf9655adcd6a4694dbace2a
