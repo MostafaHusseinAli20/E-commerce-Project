@@ -21,6 +21,6 @@ EX: Graphics Card - CPU - GPU - Computer Cases - Phone - Memory .....
 • GUI => Next
 
 
-# PREVIW Website
+# Preview Website
 
 git clone - https://github.com/MostafaHusseinAli20/E-commerce-Project.git - 
